@@ -1,0 +1,175 @@
+/* RECIPES CSS STARTS HERE */
+div.recipes {
+  background: #FFF;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: flex;
+  top: 0px;
+  left: 0px;
+  bottom: 0px;
+  padding-bottom: 1500px; }
+
+/* MINI LOGO */
+div.xsLogo {
+  margin-left: 25px; }
+
+img.xslogo {
+  width: 53px;
+  margin-top: 15px; }
+
+img.back {
+  margin-top: 80px;
+  margin-left: -42px; }
+
+/* ALL RECIPES */
+div.row.between-xs {
+  display: flex; }
+
+div.row.around-xs {
+  margin-top: 100px;
+  margin-left: 31px; }
+
+p.content {
+  font-size: 10px; }
+
+img.pics {
+  width: 30%;
+  height: 30%; }
+
+a.back {
+  text-decoration: none;
+  margin-left: -560px;
+  color: #585858; }
+
+div.backLink {
+  margin-top: 35px; }
+
+h3 {
+  color: black;
+  font-weight: bolder; }
+
+p {
+  color: #585858;
+  font-size: 14px; }
+
+hr {
+  margin-left: 3px; }
+
+p.details {
+  font-size: 13px; }
+
+div.details {
+  margin-left: 325px;
+  margin-top: -157px; }
+
+p.calories, p.carbos, p.fats, p.proteins, p.country {
+  font-size: 12px;
+  color: black;
+  font-weight: bold; }
+
+div.calories {
+  margin-top: 17px;
+  margin-left: 327px; }
+
+div.carbos {
+  margin-top: -24px;
+  margin-left: 430px; }
+
+div.fats {
+  margin-left: 510px;
+  margin-top: -25px; }
+
+div.proteins {
+  margin-left: 570px;
+  margin-top: -25px; }
+
+div.country {
+  margin-left: 655px;
+  margin-top: -25px; }
+
+p.time {
+  color: #91c11e;
+  font-weight: bold;
+  font-size: 12px; }
+
+div.time {
+  margin-left: 325px; }
+
+div.favs {
+  margin-left: 737px;
+  margin-top: -29px; }
+
+img.favs {
+  margin-left: -5px;
+  margin-right: 5px; }
+
+/* RATINGS CSS */
+div.wrapper {
+  position: relative;
+  border: none;
+  font-size: 14px;
+  margin: 42px auto;
+  left: 15%;
+  top: 45px;
+  transform: translateX(-50%); }
+
+div.wrapper input {
+  border: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  position: absolute !important;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  opacity: 0; }
+
+div.wrapper label {
+  position: relative;
+  float: right;
+  color: #C8C8C8; }
+
+div.wrapper label:before {
+  margin: 5px;
+  content: "\f005";
+  font-family: FontAwesome;
+  display: inline-block;
+  font-size: 14px;
+  color: #ccc;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none; }
+
+div.wrapper input:checked ~ label:before {
+  color: #FFC107; }
+
+div.wrapper label:hover ~ label:before {
+  color: #ffdb70; }
+
+div.wrapper label:hover:before {
+  color: #FFC107; }
+
+div.content i {
+  color: #FFC107; }
+
+div.content span {
+  position: relative;
+  display: inline-block;
+  font-size: 14px; }
+
+div.content span:before, .content span:after {
+  position: absolute;
+  content: "";
+  background-color: #282828;
+  width: 40px;
+  height: 2px;
+  font-size: 14px;
+  top: 40%; }
+
+div.content span:before {
+  left: -45px; }
+
+div.content span:after {
+  right: -45px; }
+
+/*# sourceMappingURL=recipe.css.map */

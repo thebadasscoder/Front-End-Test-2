@@ -1,0 +1,75 @@
+/* LOGIN CSS STARTS HERE */
+
+$border-color: #E0E0E0;
+$inner-color: #9E9E9E;
+$logo-color: #91C11E;
+
+body,html{
+	background: #FFEB3B;
+	font:{
+		family: 'Montserrat', sans-serif;
+	}
+	color: #FFFFF;
+}
+
+div.logo{
+	position: relative;
+	bottom: -81px;
+	right: 2px;
+}
+
+div#form-background{
+	width:100%;
+	max-width: 424px;
+	padding: 5px;
+	padding-bottom: 70px;
+	padding-top: 52px;
+	margin: 105px 0;
+	box-shadow: 0 0 20px 0 rgba(0,0,0,0.2), 0 5px 5px 0 rgba(0,0,0,0.24);
+	border-radius: 5px;
+	border: 1px solid #FFFFF;
+	position: relative;
+	background-color: #FFF;
+}
+
+
+form{
+	input{
+		border: 2px solid $border-color;
+		border-radius: 5px;
+		width:290px;
+		height: 36px;
+		color: $inner-color;
+		padding-left: 8px;
+		margin-top:10px;
+	}
+}
+
+input.loginBtn{
+	border: 2px solid $logo-color;
+	border-radius: 5px;
+	width:304px;
+	height: 43px;
+	background-color: $logo-color;
+	color: #FFF;
+	padding-right: 25px;
+	margin-top: 13px;
+}
+
+ul#links{
+	list-style-type:none;
+	margin-top: -98px;
+		a{
+			text-decoration:none;
+			color: #FFF;
+				font:{
+					size: 12px;
+			 	}
+		}
+}
+
+li{
+	display:inline;
+	margin-left:39px;
+	margin-right:70px;
+}
